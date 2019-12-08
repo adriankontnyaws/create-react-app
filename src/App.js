@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Test React on AWS
+          Test React on AWS x
         </a>
       </header>
     </div>
