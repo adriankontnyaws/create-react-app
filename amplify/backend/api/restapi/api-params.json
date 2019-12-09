@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/coins",
+            "lambdaFunction": "lambda",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "restapi",
+    "apiName": "restapi",
+    "functionArns": [
+        {
+            "lambdaFunction": "lambda"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-create-react-app-dev-102527-authRole",
+        "unAuthRoleName": "amplify-create-react-app-dev-102527-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "lambda",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
