@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/coins",
+            "lambdaFunction": "LAMBDA",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "REST",
+    "apiName": "REST",
+    "functionArns": [
+        {
+            "lambdaFunction": "LAMBDA"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-create-react-app-dev-02759-authRole",
+        "unAuthRoleName": "amplify-create-react-app-dev-02759-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "LAMBDA",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
