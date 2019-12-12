@@ -63,7 +63,7 @@
 				"Timeout": "25",
 				"Code": {
 					"S3Bucket": "amplify-create-react-app-dev-02759-deployment",
-					"S3Key": "amplify-builds/LAMBDA-6e566a42354641414f37-build.zip"
+					"S3Key": "amplify-builds/LAMBDA-6e6548783270694f7574-build.zip"
 				}
 			}
 		},

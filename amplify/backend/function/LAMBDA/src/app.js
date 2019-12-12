@@ -37,7 +37,11 @@ app.use(function(req, res, next) {
 
 app.get('/coins', function(req, res) {
   // Add your code here
-  res.json({success: 'get call succeed 1!', url: req.url});
+  res.json({
+    success: 'get call succeed 1!',
+    url: req.url,
+    results: [1,2,3,4]
+  });
 });
 
 app.get('/coins/*', function(req, res) {
