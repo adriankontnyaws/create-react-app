@@ -1,20 +1,38 @@
 {
-	"dev": {
-		"awscloudformation": {
-			"AuthRoleName": "amplify-create-react-app-dev-181431-authRole",
-			"UnauthRoleArn": "arn:aws:iam::534886117647:role/amplify-create-react-app-dev-181431-unauthRole",
-			"AuthRoleArn": "arn:aws:iam::534886117647:role/amplify-create-react-app-dev-181431-authRole",
-			"Region": "eu-west-1",
-			"DeploymentBucketName": "amplify-create-react-app-dev-181431-deployment",
-			"UnauthRoleName": "amplify-create-react-app-dev-181431-unauthRole",
-			"StackName": "amplify-create-react-app-dev-181431",
-			"StackId": "arn:aws:cloudformation:eu-west-1:534886117647:stack/amplify-create-react-app-dev-181431/33434b30-1e95-11ea-ab24-0a7e2e210ed2",
-			"AmplifyAppId": "d2ucecd5osyng3"
-		},
-		"categories": {
-			"function": {
-				"LAMBDA": {}
-			}
-		}
-	}
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-create-react-app-dev-181431-authRole",
+            "UnauthRoleArn": "arn:aws:iam::534886117647:role/amplify-create-react-app-dev-181431-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::534886117647:role/amplify-create-react-app-dev-181431-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "amplify-create-react-app-dev-181431-deployment",
+            "UnauthRoleName": "amplify-create-react-app-dev-181431-unauthRole",
+            "StackName": "amplify-create-react-app-dev-181431",
+            "StackId": "arn:aws:cloudformation:eu-west-1:534886117647:stack/amplify-create-react-app-dev-181431/33434b30-1e95-11ea-ab24-0a7e2e210ed2",
+            "AmplifyAppId": "d2ucecd5osyng3"
+        },
+        "categories": {
+            "function": {
+                "LAMBDA": {}
+            }
+        }
+    },
+    "test": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-create-react-app-test-190248-authRole",
+            "UnauthRoleArn": "arn:aws:iam::534886117647:role/amplify-create-react-app-test-190248-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::534886117647:role/amplify-create-react-app-test-190248-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "amplify-create-react-app-test-190248-deployment",
+            "UnauthRoleName": "amplify-create-react-app-test-190248-unauthRole",
+            "StackName": "amplify-create-react-app-test-190248",
+            "StackId": "arn:aws:cloudformation:eu-west-1:534886117647:stack/amplify-create-react-app-test-190248/f2412060-1e9b-11ea-9cf0-0abd335268a4",
+            "AmplifyAppId": "d2ucecd5osyng3"
+        },
+        "categories": {
+            "function": {
+                "LAMBDA": {}
+            }
+        }
+    }
 }

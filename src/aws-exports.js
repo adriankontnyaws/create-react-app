@@ -5,7 +5,7 @@ const awsmobile = {
     "aws_cloud_logic_custom": [
         {
             "name": "REST",
-            "endpoint": "https://r2vgknz00k.execute-api.eu-west-1.amazonaws.com/dev",
+            "endpoint": "https://lblzjapc8e.execute-api.eu-west-1.amazonaws.com/test",
             "region": "eu-west-1"
         }
     ],
