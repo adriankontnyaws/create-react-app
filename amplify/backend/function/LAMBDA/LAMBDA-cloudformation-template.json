@@ -62,7 +62,7 @@
 				"Runtime": "nodejs10.x",
 				"Timeout": "25",
 				"Code": {
-					"S3Bucket": "amplify-create-react-app-test-175412-deployment",
+					"S3Bucket": "amplify-create-react-app-dev-181431-deployment",
 					"S3Key": "amplify-builds/LAMBDA-6e6548783270694f7574-build.zip"
 				}
 			}
