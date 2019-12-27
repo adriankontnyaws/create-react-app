@@ -1,6 +1,6 @@
 {
     "identityPoolName": "createreactapp7542f228_identitypool_7542f228",
-    "allowUnauthenticatedIdentities": false,
+    "allowUnauthenticatedIdentities": true,
     "resourceNameTruncated": "create7542f228",
     "userPoolName": "createreactapp7542f228_userpool_7542f228",
     "autoVerifiedAttributes": [
